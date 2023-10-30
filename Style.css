@@ -1,0 +1,190 @@
+
+.mySkills {
+    text-align: center;
+    padding: 20px;
+    background-color: #939598; 
+    color: #fff; 
+}
+
+.mySkills h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.flexContainer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.myWork {
+    text-align: center;
+    padding: 20px;
+    background-color: #dcdcdc; 
+}
+
+.myWork h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.workGrid div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #68147b;
+}
+
+.workGrid img {
+    width: 100%;
+}
+
+.workGrid h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.workGrid p {
+    margin: 10px 0;
+}
+
+.workGrid button {
+    background-color: #250e0e; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.workGrid button:hover {
+    background-color: rgba(128, 0, 128, 0.7); 
+}
+.workGrid button:active{
+    background-color: rgba(35, 1, 35, 0.7)
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.mySkills {
+    text-align: center;
+    padding: 20px;
+    background-color: #939598; 
+    color: #fff; 
+}
+
+.mySkills h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.flexContainer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.myWork {
+    text-align: center;
+    padding: 20px;
+    background-color: #dcdcdc; 
+}
+
+.myWork h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.workGrid div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.workGrid img {
+    width: 100%;
+}
+
+.workGrid h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.workGrid p {
+    margin: 10px 0;
+}
+
+.workGrid button {
+    background-color: #4d3a76; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexContainer div {
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(4, 1fr); 
+        grid-template-areas:
+            "img1"
+            "project1"
+            "img2"
+            "project2"; 
+    }
+}
+
